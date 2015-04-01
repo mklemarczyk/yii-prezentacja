@@ -1,6 +1,7 @@
 # Yii 2.0 - prezentacja
 
 ## Przygotowanie
+- 7-zip (narzędzie rozpakowywania archiwów) http://www.7-zip.org/a/7z920.exe
 - Server: http://www.usbwebserver.net/en/
 - Notepad++ (edytor) http://dl.notepad-plus-plus.org/downloads/6.x/6.7.5/npp.6.7.5.Installer.exe
 - Yii homepage: http://www.yiiframework.com/
