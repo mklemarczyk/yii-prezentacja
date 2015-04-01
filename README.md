@@ -2,6 +2,7 @@
 
 ## Przygotowanie
 - Server: http://www.usbwebserver.net/en/
+- Notepad++ (edytor) http://dl.notepad-plus-plus.org/downloads/6.x/6.7.5/npp.6.7.5.Installer.exe
 - Yii homepage: http://www.yiiframework.com/
 - Yii szkielet aplikacji: https://github.com/yiisoft/yii2/releases/download/2.0.3/yii-advanced-app-2.0.3.tgz
 - Dokumentacja: http://www.yiiframework.com/doc-2.0/index.html
