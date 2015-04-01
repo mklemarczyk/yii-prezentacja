@@ -10,3 +10,8 @@
 ## Zawartość repozytorium
 - Plik prezentacji
 - Kod przykładowego projektu
+
+### Uwagi
+W przypadku problemów z uruchomieniem serwera proszę o stworzenie issue z pytaniem.
+Na pytania dotyczące Yii będę odpowiadał po wykadzie.
+Wszystkie materiały opracowywane podczas wykadu będą tu dostępne.
