@@ -1,6 +1,6 @@
 # Yii 2.0 - prezentacja
 
-**Szczegółowa instrukcja i materiały wideo (w języku polskim):** [link](https://github.com/mklemarczyk/yii-prezentacja/wiki)
+**Szczegółowa instrukcja i materiały wideo (w języku polskim):** :point_right: :point_right: [link](https://github.com/mklemarczyk/yii-prezentacja/wiki)
 
 ## Materiały dodatkowe
 - 7-zip (narzędzie rozpakowywania archiwów) http://www.7-zip.org/a/7z920.exe
