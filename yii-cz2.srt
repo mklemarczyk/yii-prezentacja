@@ -1,0 +1,162 @@
+
+1
+00:00:00,3 --> 00:00:3,0
+Otwieramy przegladarke z naszym projektem.
+
+2
+00:00:02,0 --> 00:00:4,0
+Przechodzimy do gii.
+
+2
+00:00:07,0 --> 00:00:9,0
+Wybieramy Model Generator
+
+3
+00:00:10,0 --> 00:00:12,0
+Podajemy nazwy tabel, ktorych chcemy wygenerowac modele.
+
+4
+00:00:12,5 --> 00:00:14,0
+* - oznacza wszystkie tabele
+
+5
+00:00:15,5 --> 00:00:20,0
+Poprawiamy przestrzen nazw na common\models
+
+6
+00:00:22,5 --> 00:00:27,0
+Wybieramy preview, aby zobaczyc jakie pliki zostana stworzone
+
+7
+00:00:28,5 --> 00:00:31,0
+Klikajac na nazwe pliku, mozemy zobaczyc co bedzie zawieral plik
+
+8
+00:00:28,5 --> 00:00:31,0
+Klikajac na nazwe pliku, mozemy zobaczyc co bedzie zawieral plik
+
+9
+00:00:32,0 --> 00:00:33,0
+tableName - zwraca nazwe tabeli
+
+10
+00:00:33,5 --> 00:00:35,0
+rules - zwraca tablice regul (sprawdzanie poprawnosci danych)
+
+
+11
+00:00:35,5 --> 00:00:37,5
+attributeLabels - zwraca tablice nazw ktore beda wyswietlane w aplikacji
+
+12
+00:00:38,5 --> 00:00:40,0
+getLot, getZakup - funkcje reprezentujace relacje miedzy modelami
+
+13
+00:00:42,5 --> 00:00:44,0
+Wybieramy generate, aby utworzyc modele
+
+14
+00:00:46,5 --> 00:00:49,0
+Wybieramy z menu CRUD Generator
+
+15
+00:00:50,5 --> 00:00:55,0
+Utworzymy teraz przykladowy kontroler realizujacy akcje C.R.U.D.
+
+16
+00:00:57,5 --> 00:01:01,0
+Podajemy pelna nazwe modelu
+
+17
+00:01:04,5 --> 00:01:09,0
+Podajemy pelna nazwe nowego kontrolera
+
+18
+00:01:10,5 --> 00:01:15,0
+Nowy kontroler zostanie utworzony w aplikacji "frontend"
+
+19
+00:01:16,5 --> 00:01:19,0
+Wybieramy preview, aby zobaczyc jakie pliki zostana stworzone
+
+20
+00:01:20,5 --> 00:01:23,0
+Wybieramy generate, aby utworzyc pliki
+
+21
+00:01:26,5 --> 00:01:32,0
+Przechodzac na strone mozemy zobaczyc jak wyglada wynik naszej pracy
+Poprzez podanie adresu ?r=<nazwa kontrolera>
+
+22
+00:01:45,5 --> 00:01:48,0
+Niestety nasz testowy samolot nie zapisał roku produkcji
+
+23
+00:01:49,5 --> 00:01:53,0
+Wynika to z tego, że dane zawarte w modelu muszą odpowiadać formatowi z bazy danych
+
+24
+00:01:54,5 --> 00:01:59,0
+Problem ten rozwiazemy w nastepnej czesci
+
+25
+00:02:09,5 --> 00:02:04,0
+Teraz przyjzyjmy sie kontrolerowi
+
+26
+00:02:13,5 --> 00:02:18,0
+Funkcja behaviors zawiera informacje o prawach dostepu
+
+27
+00:02:19,5 --> 00:02:24,0
+Funkcja actionIndex odpowiada na adres samolot/index
+Odpowiada za wyswietlenie listy samolotow
+
+28
+00:02:24,5 --> 00:02:29,0
+Funkcja actionView odpowiada na adres samolot/viwe?id=<nr> oraz samolot/viwe/<nr>
+Odpowiada za wyswietlenie szczegolow wybranego samolotu
+
+29
+00:02:29,5 --> 00:02:33,0
+Funkcja actionCreate odpowiada na adres samolot/create
+Odpowiada za formularz stworzenia nowego samolotu
+
+30
+00:02:33,5 --> 00:02:35,0
+actionUpdate - Odpowiada za formularz modyfikacji wybranego samolotu
+
+31
+00:02:35,5 --> 00:02:38,5
+actionDelete - Odpowiada za usuniecie wybranego samolotu
+
+32
+00:02:39,5 --> 00:02:42,5
+findModel - Odpowiada za wyszukanie samolotu w bazie danych
+
+33
+00:02:48,5 --> 00:02:52,5
+Przykladowy plik widoku samolot/index.php
+Jego nazwa jest taka sama jak nazwa akcji
+
+34
+00:02:52,5 --> 00:02:56,5
+Widzimy na nim sposob uzycia klasy GridView do wyswietlenia listy samolotow
+
+35
+00:03:00,5 --> 00:03:05,0
+Plik layouts/main.php zawiera szablon strony w języku HTML
+
+36
+00:03:05,5 --> 00:03:10,0
+Jego glowna rola jest wyswietlenie menu i stopki
+
+37
+00:03:11,5 --> 00:03:15,0
+Wszystkie pozycje menu sa trzymane w tablicy $menuItems
+
+38
+00:03:20,5 --> 00:03:25,0
+Opis w jaki sposob dodawac pozycje do menu jest w instrukcji na stronie wykladu
