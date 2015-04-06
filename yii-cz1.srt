@@ -1,0 +1,130 @@
+
+1
+00:00:02,5 --> 00:00:06,0
+Otwieramy przegladarke
+
+2
+00:00:06,5 --> 00:00:09,0
+Wyszukujemy na github repo z wykladem
+
+3
+00:00:23,5 --> 00:00:28,0
+Pobieramy serwer http
+
+4
+00:00:45,5 --> 00:00:50,0
+Rozpakowujemy plik zawierajacy serwer
+
+5
+00:01:31,5 --> 00:01:36,0
+Przenosimy folder z serwerem do miejsca w ktorym adres nie bedzie mial spacji
+Na przyklad na dysk C:\
+
+6
+00:01:37,5 --> 00:01:42,0
+Zmieniamy nazwe folderu na dowolna
+Byle nie zawierala polskich znakow i spacji
+
+7
+00:01:49,5 --> 00:01:54,0
+Uruchamiamy serwer
+
+8
+00:02:00,5 --> 00:02:05,0
+Wybieramy z menu Localhost
+Uruchomi sie strona z naszego serwera
+
+9
+00:02:05,5 --> 00:02:10,0
+Sprawdzamy czy serwer spelnia wymagania Yii 2.0
+
+10
+00:02:17,5 --> 00:02:22,0
+Upewniamy sie czy strona, ktora widzimy to ta sama co w katalogu "root/index.php"
+
+11
+00:02:38,5 --> 00:02:50,0
+Pobieramy szkielet aplikacji Yii 2.0
+
+12
+00:03:00,5 --> 00:03:30,0
+Rozpakowujemy archiwum ze szkieletem aplikacji Yii 2.0
+
+13
+00:03:42,5 --> 00:03:55,0
+Przenosimy wypakowany katalog do folderu "root" na serwerze
+
+14
+00:04:05,5 --> 00:04:08,0
+Sprawdzamy czy wszyskie dane się przeniosły i otwieramy requirements.php
+
+15
+00:04:08,5 --> 00:04:12,0
+Sprawdzamy czy serwer spelnia minimalne wymagania Yii 2.0
+
+16
+00:04:13,5 --> 00:04:18,0
+W tym wypadku wszystko jest OK
+
+17
+00:04:21,5 --> 00:04:25,0
+Pozostala jeszcze konfiguracja Yii
+
+18
+00:04:28,5 --> 00:04:33,0
+Przejdzmy do panelu sterowania serwerem baz danych MySQL
+
+19
+00:04:35,5 --> 00:04:40,0
+Stworzmy prosta baze danych
+
+20
+00:04:50,5 --> 00:05:10,0
+Plik zawierajacy przykladowa baze danych jest na repo wykladu
+
+21
+00:04:11,5 --> 00:05:16,0
+Tabele zostaly pomyslnie zaimportowane z pliku SQL
+
+22
+00:04:28,5 --> 00:05:33,0
+Nastepnym krokiem jest skonfigurawanie dostepu do bazy danych
+
+23
+00:05:49,5 --> 00:05:54,0
+Na koniec potrzebujemy zainicjowac srodowisko
+
+24
+00:05:55,5 --> 00:06:00,0
+Do tego celu przyda nam sie plik z wykladu "start.bat"
+
+25
+00:06:11,5 --> 00:06:14,0
+Musimy jednak poprawic w nim sciezki
+
+26
+00:06:15,5 --> 00:06:34,0
+Adres do interpretera PHP
+oraz do katalogu z projektem
+
+27
+00:06:36,5 --> 00:06:40,0
+Uruchamiamy plik start.bat
+i przystepujemy do inicjacji
+
+28
+00:06:40,5 --> 00:06:44,0
+Uruchamiamy skrypt init.bat
+
+29
+00:06:45,5 --> 00:06:50,0
+Wybieramy srodowisko Development
+
+30
+00:06:55,5 --> 00:07:00,0
+Ustawiamy port MySQL na domyslny
+(tj. 3306)
+
+31
+00:07:04,5 --> 00:07:10,0
+Srodowisko jest juz gotowe do pracy
