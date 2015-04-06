@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 
 DROP TABLE IF EXISTS `bilet`;
 CREATE TABLE IF NOT EXISTS `bilet` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `klasa` int(11) NOT NULL,
   `numer_miejsca` int(11) NOT NULL,
   `cena` decimal(8,2) NOT NULL,
@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS `bilet` (
 
 DROP TABLE IF EXISTS `klient`;
 CREATE TABLE IF NOT EXISTS `klient` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `imie` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `nazwisko` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS `klient` (
 
 DROP TABLE IF EXISTS `lot`;
 CREATE TABLE IF NOT EXISTS `lot` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `numer_lotu` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
   `data_wylotu` datetime NOT NULL,
   `czas_lotu` int(11) NOT NULL COMMENT 'Wyrażone w sekundach',
@@ -84,7 +84,7 @@ CREATE TABLE IF NOT EXISTS `lot` (
 
 DROP TABLE IF EXISTS `lotnisko`;
 CREATE TABLE IF NOT EXISTS `lotnisko` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `nazwa` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `miasto` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `kraj` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
@@ -99,7 +99,7 @@ CREATE TABLE IF NOT EXISTS `lotnisko` (
 
 DROP TABLE IF EXISTS `samolot`;
 CREATE TABLE IF NOT EXISTS `samolot` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `model` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `rok_produkcji` date NOT NULL,
   `liczba_miejsc` int(11) NOT NULL,
@@ -114,7 +114,7 @@ CREATE TABLE IF NOT EXISTS `samolot` (
 
 DROP TABLE IF EXISTS `zakup`;
 CREATE TABLE IF NOT EXISTS `zakup` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `data_zakupu` datetime NOT NULL,
   `klient_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
